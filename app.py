@@ -10,7 +10,8 @@ model = tf.keras.models.load_model("model.h5")
 uploaded_file = st.file_uploader("Choose a image file", type=["jpg","png","jpeg"])
 
 map_dict={0:"akash",
-          1: "mehedi"}
+          1: "asif",
+          2: "mehedi"}
 
 if uploaded_file is not None:
     # Convert the file to an opencv image.
